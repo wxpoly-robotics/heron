@@ -1,0 +1,65 @@
+coverage_planner:
+  ros__parameters:
+    angular_gain: 2.0
+    arrival_threshold: 0.15
+    auto_start_boundary: false
+    avoid_distance: 0.6
+    boundary_xy:
+    - -3.5
+    - -3.5
+    - 3.5
+    - -3.5
+    - 3.5
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 3.5
+    - -3.5
+    - 3.5
+    bypass_offset: 1.5
+    linear_speed: 0.5
+    margin: 0.4
+    obstacles_xyr:
+    - 2.0
+    - 2.0
+    - 0.3
+    - -2.0
+    - -2.0
+    - 0.4
+    - 2.5
+    - 1.5
+    - 0.36
+    - -2.5
+    - 2.0
+    - 0.07
+    - 3.0
+    - -1.5
+    - 0.25
+    - -2.0
+    - -2.5
+    - 0.2
+    - -4.0
+    - 4.0
+    - 0.3
+    one_pass: true
+    strategy: multi
+    stripe_width: 0.4
+    use_boundary_constraint: true
+    use_sim_time: true
+    use_vision: false
+metrics_recorder:
+  ros__parameters:
+    max_duration: 2400.0
+    meta_json: '{"run_id": "sciA_L7_L7_multi_r1", "paper": "sciA", "group": "sciA_L7",
+      "shape": "L7", "method": "multi", "rep": 1, "strategy": "multi", "boundary":
+      [[-3.5, -3.5], [3.5, -3.5], [3.5, 0], [0, 0], [0, 3.5], [-3.5, 3.5]], "spawn":
+      [-1.0, -1.0], "obstacles": [["rock", 2.0, 2.0, 0.3], ["bush", -2.0, -2.0, 0.4],
+      ["chair", 2.5, 1.5, 0.36], ["bottle", -2.5, 2.0, 0.07], ["person", 3.0, -1.5,
+      0.25], ["dog", -2.0, -2.5, 0.2], ["dock", -4.0, 4.0, 0.3]], "planner_params":
+      {"margin": 0.4, "stripe_width": 0.4, "linear_speed": 0.5, "avoid_distance":
+      0.6, "bypass_offset": 1.5, "angular_gain": 2.0, "arrival_threshold": 0.15},
+      "use_vision": false, "use_boundary_constraint": true, "world": "lawn_world.world",
+      "timestamp": "2026-10-08T00:22:26"}'
+    out_dir: /home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/data/sciA_L7_L7_multi_r1
+    use_sim_time: true
