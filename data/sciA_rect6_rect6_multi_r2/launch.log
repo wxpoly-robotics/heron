@@ -1,0 +1,1363 @@
+[INFO] [launch]: All log files can be found below /home/abc/.ros/log/2026-10-07-22-36-47-320433-123-216398
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [216405]
+[INFO] [gzserver-2]: process started with pid [216407]
+[robot_state_publisher-1] [WARN] [1791383807.465661802] [kdl_parser]: The root link base_footprint has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-1] [INFO] [1791383807.465715273] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1791383807.465749233] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1791383807.465752982] [robot_state_publisher]: got segment camera_Link
+[robot_state_publisher-1] [INFO] [1791383807.465755516] [robot_state_publisher]: got segment deco_cover_Link
+[robot_state_publisher-1] [INFO] [1791383807.465758059] [robot_state_publisher]: got segment left_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791383807.465760781] [robot_state_publisher]: got segment left_rear_wheel_Link
+[robot_state_publisher-1] [INFO] [1791383807.465763238] [robot_state_publisher]: got segment lidar_Link
+[robot_state_publisher-1] [INFO] [1791383807.465765696] [robot_state_publisher]: got segment right_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791383807.465768177] [robot_state_publisher]: got segment right_rear_wheel_Link
+[gzserver-2] Gazebo multi-robot simulator, version 11.10.2
+[gzserver-2] Copyright (C) 2012 Open Source Robotics Foundation.
+[gzserver-2] Released under the Apache 2 License.
+[gzserver-2] http://gazebosim.org
+[gzserver-2] 
+[gzserver-2] [1;33m[Wrn] [gazebo_ros_init.cpp:178] [0m[1;33m
+[gzserver-2] #     # ####### ####### ###  #####  #######
+[gzserver-2] ##    # #     #    #     #  #     # #
+[gzserver-2] # #   # #     #    #     #  #       #
+[gzserver-2] #  #  # #     #    #     #  #       #####
+[gzserver-2] #   # # #     #    #     #  #       #
+[gzserver-2] #    ## #     #    #     #  #     # #
+[gzserver-2] #     # #######    #    ###  #####  #######
+[gzserver-2] 
+[gzserver-2] This version of Gazebo, now called Gazebo classic, reaches end-of-life
+[gzserver-2] in January 2025. Users are highly encouraged to migrate to the new Gazebo
+[gzserver-2] using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
+[gzserver-2] 
+[gzserver-2] [0m[1;33m
+[INFO] [spawn_entity.py-3]: process started with pid [216691]
+[spawn_entity.py-3] [INFO] [1791383810.786693320] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-3] [INFO] [1791383810.786889219] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-3] [INFO] [1791383810.787814255] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-3] [INFO] [1791383810.798594359] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-3] [INFO] [1791383810.798767538] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791383810.800430774] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791383810.983148460] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [auto_mower]
+[gzserver-2] [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11410[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.168.177.7[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/scripts/worlds/lawn_world_rtf2.world[0m[1;32m][0m[1;32m
+[gzserver-2] [0m[1;33m[0m[1;33m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[INFO] [spawn_entity.py-3]: process has finished cleanly [pid 216691]
+[gzserver-2] [0m[INFO] [1791383811.110891754] [camera_controller]: Publishing camera info to [/camera/camera_info]
+[gzserver-2] [1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[INFO] [1791383811.192383574] [diff_drive]: Wheel pair 1 separation set to [0.526460m]
+[gzserver-2] [INFO] [1791383811.192408526] [diff_drive]: Wheel pair 1 diameter set to [0.176000m]
+[gzserver-2] [INFO] [1791383811.192949271] [diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-2] [INFO] [1791383811.193967558] [diff_drive]: Advertise odometry on [/odom]
+[gzserver-2] [INFO] [1791383811.195140582] [diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-2] [INFO] [1791383811.200264180] [joint_state_publisher]: Going to publish joint [joint_left_front_wheel_Link]
+[gzserver-2] [INFO] [1791383811.200279844] [joint_state_publisher]: Going to publish joint [joint_right_front_wheel_Link]
+[gzserver-2] [INFO] [1791383811.200283867] [joint_state_publisher]: Going to publish joint [joint_left_rear_wheel_Link]
+[gzserver-2] [INFO] [1791383811.200287423] [joint_state_publisher]: Going to publish joint [joint_right_rear_wheel_Link]
+[gzserver-2] [INFO] [1791383811.200290272] [joint_state_publisher]: Going to publish joint [joint_camera_Link]
+[INFO] [async_slam_toolbox_node-4]: process started with pid [216787]
+[async_slam_toolbox_node-4] [INFO] [1791383813.458144743] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-4] [INFO] [1791383813.817327414] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-4] [INFO] [1791383813.817461927] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[async_slam_toolbox_node-4] Registering sensor: [Custom Described Lidar]
+[INFO] [python3-5]: process started with pid [216840]
+[INFO] [python3-6]: process started with pid [216844]
+[python3-5] [INFO] [1791383816.101705052] [coverage_planner]: 🌱 CoveragePlanner 已启动
+[python3-5] [INFO] [1791383816.101916749] [coverage_planner]:    边界记录模式: 启动后自动记录 odom，走完后发布 /record_boundary False 即可
+[python3-5] [INFO] [1791383816.103404966] [coverage_planner]: 🧪 实验变体启动: strategy=multi one_pass=True use_vision=False boundary_constraint=True 边界顶点数=4
+[python3-5] [INFO] [1791383816.104750536] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-6] [INFO] [1791383816.117122248] [metrics_recorder]: 📼 记录器启动, out_dir=/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/data/sciA_rect6_rect6_multi_r2
+[python3-5] [INFO] [1791383817.006720248] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-5] [INFO] [1791383823.009685427] [coverage_planner]: 🧪 注入边界多边形: 121 点
+[python3-5] [INFO] [1791383823.010012642] [coverage_planner]: 处理边界轨迹，原始点 121 个
+[python3-5] [INFO] [1791383823.010340724] [coverage_planner]: 简化后 121 个点
+[python3-5] [INFO] [1791383823.010638031] [coverage_planner]: 首尾距离: 0.00m
+[python3-5] [INFO] [1791383823.010919514] [coverage_planner]: 已闭合多边形
+[python3-5] [INFO] [1791383823.011217562] [coverage_planner]: ✅ 边界完成: 122 个顶点, x=-3.0~3.0, y=-3.0~3.0
+[python3-5] [INFO] [1791383823.020309308] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791383823.026191783] [coverage_planner]: 方向 0.0°: 143 航点, 连接代价 5.7m
+[python3-5] [INFO] [1791383823.026622193] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791383823.036160062] [coverage_planner]: 方向 30.0°: 146 航点, 连接代价 13.7m
+[python3-5] [INFO] [1791383823.036569967] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791383823.047588889] [coverage_planner]: 方向 60.0°: 146 航点, 连接代价 13.9m
+[python3-5] [INFO] [1791383823.047993575] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791383823.053582639] [coverage_planner]: 方向 90.0°: 143 航点, 连接代价 5.4m
+[python3-5] [INFO] [1791383823.053988918] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791383823.063355483] [coverage_planner]: 方向 120.0°: 146 航点, 连接代价 10.3m
+[python3-5] [INFO] [1791383823.063772714] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791383823.075188163] [coverage_planner]: 方向 150.0°: 146 航点, 连接代价 10.3m
+[python3-5] [INFO] [1791383823.075361863] [coverage_planner]: ✅ [strategy=multi] 选定条纹方向: 90.0° (连接代价 5.4m)
+[python3-5] [INFO] [1791383823.086437564] [coverage_planner]: 🚀 开始覆盖导航，共 143 个航点，从航点0出发
+[python3-5] [INFO] [1791383823.087193623] [coverage_planner]: 🧪 真值障碍过滤航点: 143 -> 123
+[python3-5] [INFO] [1791383823.100660379] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-6] [INFO] [1791383823.101476017] [metrics_recorder]: 📼 覆盖开始: 123 个规划航点, t=28.1
+[python3-5] [INFO] [1791383823.109401538] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.159842119] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.210512208] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.262852617] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.310939519] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.361770061] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.412139226] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.461359847] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.512091403] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.560506149] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.610885793] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.661398601] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.711942299] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.763233071] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.811593215] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.862210265] [coverage_planner]: 状态:ROTATE 目标0:(-2.6,-2.6)
+[python3-5] [INFO] [1791383823.865683671] [coverage_planner]: 🌀 航点0航线被挡，插入16个绕障圆弧航点
+[python3-5] [INFO] [1791383823.911201268] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383823.961650273] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.011550498] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.063894029] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.112066520] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.162657848] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.212208082] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.264082533] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.313530434] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.362606611] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.411049117] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.461466545] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.510588931] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.560536146] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.611932596] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.662675455] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.711414297] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.761567888] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.812944043] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.862693873] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.911861115] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383824.962409764] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.012006265] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.062529825] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.113650686] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.162657890] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.213152139] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.263393449] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.313685800] [coverage_planner]: 状态:ROTATE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.363314723] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.412515081] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.462774185] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.513508856] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.563075914] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.614373015] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.663802039] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.713581751] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.763991703] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.814317267] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.863460440] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.913379911] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383825.964969006] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.013588509] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.064696636] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.114275390] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.163913285] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.213113220] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.263648276] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.313534810] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.363321225] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.413232713] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.463588821] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.513495097] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.564756169] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.614072648] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.664085805] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.712896379] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.763780501] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.814126074] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.864102464] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.913835918] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383826.963430468] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383827.013520122] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383827.064638869] [coverage_planner]: 状态:MOVE 目标0:(-1.2,-1.0)
+[python3-5] [INFO] [1791383827.114177814] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.164211413] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.213153613] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.264984301] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.315319283] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.363850904] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.413591879] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.463468601] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.514183150] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.563990471] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.614095751] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.665010672] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.715021673] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.765251004] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.816191127] [coverage_planner]: 状态:ROTATE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.864648729] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.914282572] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383827.964790340] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383828.015762346] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383828.065098528] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383828.115513024] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383828.166558781] [coverage_planner]: 状态:MOVE 目标1:(-1.4,-0.9)
+[python3-5] [INFO] [1791383828.215870580] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.265509888] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.316682033] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.365756328] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.415496742] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.467261101] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.517807915] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.566511185] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.617101242] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.666295908] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.716334388] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.766584645] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.817591150] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [INFO] [1791383828.866223365] [coverage_planner]: 状态:MOVE 目标2:(-1.5,-0.8)
+[python3-5] [WARN] [1791383835.173987189] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.223498519] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.273454025] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.323133457] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.373953566] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.423387435] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.472726031] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.7)，减速
+[python3-5] [WARN] [1791383835.522678077] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.573494508] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.623656184] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.674338978] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.722590407] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.774270387] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.823254219] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.8)，减速
+[python3-5] [WARN] [1791383835.874580038] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383835.923483365] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.023450614] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.072684092] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.123815779] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.173288693] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.224166987] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.272880413] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-1.9)，减速
+[python3-5] [WARN] [1791383836.322300257] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.0)，减速
+[python3-5] [WARN] [1791383836.373347635] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.0)，减速
+[python3-5] [WARN] [1791383836.424029756] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.0)，减速
+[python3-5] [WARN] [1791383836.473113207] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.0)，减速
+[python3-5] [WARN] [1791383838.826861858] [coverage_planner]: 触发避障!激光:True(前0.35m) 视觉:False 左空0.40右空3.02
+[python3-5] [INFO] [1791383838.827630442] [coverage_planner]: 航点16第1次失败
+[python3-5] [INFO] [1791383838.828375685] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791383838.829353520] [coverage_planner]: 离边界0.34m，side_dist限制为0.20m
+[python3-5] [INFO] [1791383838.829860672] [coverage_planner]: 侧向激光约束: 绕行方向空间0.40m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383838.830368268] [coverage_planner]: 侧向空间不足(0.40m)，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383838.875725007] [coverage_planner]: 触发避障!激光:True(前0.35m) 视觉:False 左空0.40右空3.00
+[python3-5] [INFO] [1791383838.876241543] [coverage_planner]: 航点16第2次失败
+[python3-5] [INFO] [1791383838.876722061] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [INFO] [1791383838.877538818] [coverage_planner]: 离边界0.34m，side_dist限制为0.20m
+[python3-5] [INFO] [1791383838.878057080] [coverage_planner]: 侧向激光约束: 绕行方向空间0.40m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383838.878600221] [coverage_planner]: 侧向空间不足(0.40m)，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383838.927058283] [coverage_planner]: 触发避障!激光:True(前0.35m) 视觉:False 左空0.38右空3.00
+[python3-5] [INFO] [1791383838.927626108] [coverage_planner]: 航点16第3次失败
+[python3-5] [WARN] [1791383838.928236635] [coverage_planner]: 🚨 航点16失败3次，跳过
+[python3-5] [WARN] [1791383840.628072637] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.55右空0.52
+[python3-5] [INFO] [1791383840.628564298] [coverage_planner]: 航点17第1次失败
+[python3-5] [INFO] [1791383840.628959219] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383840.629636377] [coverage_planner]: 离边界仅0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383840.678292028] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.56右空0.52
+[python3-5] [INFO] [1791383840.678863838] [coverage_planner]: 航点17第2次失败
+[python3-5] [INFO] [1791383840.679341106] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383840.680129936] [coverage_planner]: 离边界仅0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383840.728324088] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.55右空0.52
+[python3-5] [INFO] [1791383840.728746552] [coverage_planner]: 航点17第3次失败
+[python3-5] [WARN] [1791383840.729179783] [coverage_planner]: 🚨 航点17失败3次，跳过
+[python3-5] [WARN] [1791383840.878095508] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.54右空0.54
+[python3-5] [INFO] [1791383840.878617276] [coverage_planner]: 航点18第1次失败
+[python3-5] [INFO] [1791383840.879058362] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383840.879786047] [coverage_planner]: 离边界仅0.14m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383840.927505945] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空2.53右空0.55
+[python3-5] [INFO] [1791383840.927870587] [coverage_planner]: 航点18第2次失败
+[python3-5] [INFO] [1791383840.928182860] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383840.928689834] [coverage_planner]: 离边界仅0.14m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383840.977004771] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.027561922] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.076514088] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.126650078] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.178373851] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.226374342] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.278182766] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.328047219] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.379145408] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.429201178] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.6)，减速
+[python3-5] [WARN] [1791383841.480632508] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.5)，减速
+[python3-5] [WARN] [1791383841.531335244] [coverage_planner]: ⚠️ 接近边界! 当前(-2.9,-2.5)，减速
+[python3-5] [WARN] [1791383841.578139784] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383841.629045334] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383841.680245655] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.54右空0.53
+[python3-5] [INFO] [1791383841.680893859] [coverage_planner]: 航点18第3次失败
+[python3-5] [WARN] [1791383841.681584562] [coverage_planner]: 🚨 航点18失败3次，跳过
+[python3-5] [WARN] [1791383841.779342478] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.55右空0.52
+[python3-5] [INFO] [1791383841.779811942] [coverage_planner]: 航点19第1次失败
+[python3-5] [INFO] [1791383841.780216500] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383841.780889826] [coverage_planner]: 离边界仅0.16m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383841.828695940] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.55右空0.51
+[python3-5] [INFO] [1791383841.829110599] [coverage_planner]: 航点19第2次失败
+[python3-5] [INFO] [1791383841.829438382] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383841.829987549] [coverage_planner]: 离边界仅0.16m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383841.878553459] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.54右空0.51
+[python3-5] [INFO] [1791383841.879021146] [coverage_planner]: 航点19第3次失败
+[python3-5] [WARN] [1791383841.879527608] [coverage_planner]: 🚨 航点19失败3次，跳过
+[python3-5] [WARN] [1791383841.978788271] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.029372770] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.078699924] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.128315385] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.177863938] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.229722213] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.279952713] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.330676677] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383842.378617981] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383842.431224291] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383842.480090059] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.55右空0.52
+[python3-5] [INFO] [1791383842.481071572] [coverage_planner]: 航点20第1次失败
+[python3-5] [INFO] [1791383842.481698074] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383842.482615943] [coverage_planner]: 离边界仅0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383842.529788519] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.55右空0.52
+[python3-5] [INFO] [1791383842.530259980] [coverage_planner]: 航点20第2次失败
+[python3-5] [INFO] [1791383842.530672755] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383842.531358899] [coverage_planner]: 离边界仅0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383842.579891690] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.56右空0.52
+[python3-5] [INFO] [1791383842.580366815] [coverage_planner]: 航点20第3次失败
+[python3-5] [WARN] [1791383842.580843469] [coverage_planner]: 🚨 航点20失败3次，跳过
+[python3-5] [WARN] [1791383842.679937205] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.730600585] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.779814082] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.829729323] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383842.880913407] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383842.930656905] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空2.57右空0.51
+[python3-5] [INFO] [1791383842.931489691] [coverage_planner]: 航点21第1次失败
+[python3-5] [INFO] [1791383842.932276743] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383842.933482463] [coverage_planner]: 离边界仅0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383842.978954370] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空2.55右空0.51
+[python3-5] [INFO] [1791383842.979265812] [coverage_planner]: 航点21第2次失败
+[python3-5] [INFO] [1791383842.979551223] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383842.980009220] [coverage_planner]: 离边界仅0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383843.030943026] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.56右空0.51
+[python3-5] [INFO] [1791383843.031287330] [coverage_planner]: 航点21第3次失败
+[python3-5] [WARN] [1791383843.031620483] [coverage_planner]: 🚨 航点21失败3次，跳过
+[python3-5] [WARN] [1791383843.130678470] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.179839057] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.230926005] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.279956377] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.331097668] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.382672154] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.432795839] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383843.479778142] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383843.533037147] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.57右空0.50
+[python3-5] [INFO] [1791383843.534058797] [coverage_planner]: 航点22第1次失败
+[python3-5] [INFO] [1791383843.535078956] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383843.536577767] [coverage_planner]: 离边界仅0.18m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383843.580388864] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.57右空0.50
+[python3-5] [INFO] [1791383843.580944807] [coverage_planner]: 航点22第2次失败
+[python3-5] [INFO] [1791383843.581405511] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383843.582219718] [coverage_planner]: 离边界仅0.18m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383843.630851496] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.58右空0.51
+[python3-5] [INFO] [1791383843.631458944] [coverage_planner]: 航点22第3次失败
+[python3-5] [WARN] [1791383843.632121968] [coverage_planner]: 🚨 航点22失败3次，跳过
+[python3-5] [WARN] [1791383843.729948617] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.57右空0.50
+[python3-5] [INFO] [1791383843.730397834] [coverage_planner]: 航点23第1次失败
+[python3-5] [INFO] [1791383843.730817591] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383843.731507895] [coverage_planner]: 离边界仅0.18m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383843.781432506] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.830310737] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.882111702] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.932464587] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383843.980065820] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383844.029797804] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383844.082985638] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383844.132561242] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383844.181808492] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.6)，减速
+[python3-5] [WARN] [1791383844.231623684] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383844.281090085] [coverage_planner]: ⚠️ 接近边界! 当前(-2.8,-2.5)，减速
+[python3-5] [WARN] [1791383844.331710218] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.58右空0.49
+[python3-5] [INFO] [1791383844.332327083] [coverage_planner]: 航点23第2次失败
+[python3-5] [INFO] [1791383844.332922780] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383844.333986351] [coverage_planner]: 离边界仅0.19m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383844.382146887] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.59右空0.49
+[python3-5] [INFO] [1791383844.382701648] [coverage_planner]: 航点23第3次失败
+[python3-5] [WARN] [1791383844.383233448] [coverage_planner]: 🚨 航点23失败3次，跳过
+[python3-5] [WARN] [1791383844.483147290] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.58右空0.50
+[python3-5] [INFO] [1791383844.483871240] [coverage_planner]: 航点24第1次失败
+[python3-5] [INFO] [1791383844.484375279] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383844.485306253] [coverage_planner]: 离边界仅0.20m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383844.532791243] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.59右空0.49
+[python3-5] [INFO] [1791383844.533392061] [coverage_planner]: 航点24第2次失败
+[python3-5] [INFO] [1791383844.533951034] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383844.534965031] [coverage_planner]: 离边界仅0.20m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383844.580594294] [coverage_planner]: 触发避障!激光:True(前0.58m) 视觉:False 左空2.58右空0.48
+[python3-5] [INFO] [1791383844.580940320] [coverage_planner]: 航点24第3次失败
+[python3-5] [WARN] [1791383844.581293680] [coverage_planner]: 🚨 航点24失败3次，跳过
+[python3-5] [WARN] [1791383845.381809685] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.62右空0.45
+[python3-5] [INFO] [1791383845.382219209] [coverage_planner]: 航点25第1次失败
+[python3-5] [INFO] [1791383845.382608693] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791383845.383259210] [coverage_planner]: 离边界0.23m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383845.384301149] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383845.430634884] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.63右空0.45
+[python3-5] [INFO] [1791383845.430914741] [coverage_planner]: 航点25第2次失败
+[python3-5] [INFO] [1791383845.431168674] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [INFO] [1791383845.431592735] [coverage_planner]: 离边界0.24m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383845.432201685] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383845.482987475] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.62右空0.44
+[python3-5] [INFO] [1791383845.483514300] [coverage_planner]: 航点25第3次失败
+[python3-5] [WARN] [1791383845.484089714] [coverage_planner]: 🚨 航点25失败3次，跳过
+[python3-5] [WARN] [1791383845.580673959] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.62右空0.44
+[python3-5] [INFO] [1791383845.580950788] [coverage_planner]: 航点26第1次失败
+[python3-5] [INFO] [1791383845.581192188] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791383845.581634397] [coverage_planner]: 离边界0.24m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383845.582308339] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383845.632227365] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.61右空0.44
+[python3-5] [INFO] [1791383845.632837878] [coverage_planner]: 航点26第2次失败
+[python3-5] [INFO] [1791383845.633364565] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [INFO] [1791383845.634237957] [coverage_planner]: 离边界0.24m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383845.635533431] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383845.682778186] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.62右空0.44
+[python3-5] [INFO] [1791383845.683361074] [coverage_planner]: 航点26第3次失败
+[python3-5] [WARN] [1791383845.683986313] [coverage_planner]: 🚨 航点26失败3次，跳过
+[python3-5] [WARN] [1791383846.182390065] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.64右空0.43
+[python3-5] [INFO] [1791383846.182763519] [coverage_planner]: 航点27第1次失败
+[python3-5] [INFO] [1791383846.183082205] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791383846.183676673] [coverage_planner]: 离边界0.26m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383846.184515422] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383846.232313960] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.65右空0.43
+[python3-5] [INFO] [1791383846.232655648] [coverage_planner]: 航点27第2次失败
+[python3-5] [INFO] [1791383846.232948787] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [INFO] [1791383846.233441001] [coverage_planner]: 离边界0.26m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383846.234217734] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383846.281824295] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.65右空0.43
+[python3-5] [INFO] [1791383846.282096079] [coverage_planner]: 航点27第3次失败
+[python3-5] [WARN] [1791383846.282386486] [coverage_planner]: 🚨 航点27失败3次，跳过
+[python3-5] [WARN] [1791383846.782689709] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.66右空0.62
+[python3-5] [INFO] [1791383846.783135968] [coverage_planner]: 航点28第1次失败
+[python3-5] [INFO] [1791383846.783573027] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791383846.784276631] [coverage_planner]: 离边界0.21m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383846.785385130] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383846.834112915] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.65右空0.62
+[python3-5] [INFO] [1791383846.834726639] [coverage_planner]: 航点28第2次失败
+[python3-5] [INFO] [1791383846.835250369] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [INFO] [1791383846.836148952] [coverage_planner]: 离边界0.21m，side_dist限制为0.20m
+[python3-5] [WARN] [1791383846.837436736] [coverage_planner]: 路径在安全边界外，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383846.884700492] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.65右空0.67
+[python3-5] [INFO] [1791383846.885297665] [coverage_planner]: 航点28第3次失败
+[python3-5] [WARN] [1791383846.885929482] [coverage_planner]: 🚨 航点28失败3次，跳过
+[python3-5] [WARN] [1791383847.483089384] [coverage_planner]: 触发避障!激光:True(前0.54m) 视觉:False 左空2.67右空5.23
+[python3-5] [INFO] [1791383847.483494237] [coverage_planner]: 航点29第1次失败
+[python3-5] [INFO] [1791383847.483849387] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383847.484476217] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383847.534976831] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.67右空5.21
+[python3-5] [INFO] [1791383847.535630453] [coverage_planner]: 航点29第2次失败
+[python3-5] [INFO] [1791383847.536198214] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383847.537080282] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383847.582585197] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.67右空5.22
+[python3-5] [INFO] [1791383847.582847664] [coverage_planner]: 航点29第3次失败
+[python3-5] [WARN] [1791383847.583112107] [coverage_planner]: 🚨 航点29失败3次，跳过
+[python3-5] [WARN] [1791383848.183756824] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383848.234949366] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383848.283190750] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383848.335126802] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.69右空4.61
+[python3-5] [INFO] [1791383848.335780537] [coverage_planner]: 航点30第1次失败
+[python3-5] [INFO] [1791383848.336359076] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383848.337362732] [coverage_planner]: 离边界仅-0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383848.383926384] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.70右空4.69
+[python3-5] [INFO] [1791383848.384368757] [coverage_planner]: 航点30第2次失败
+[python3-5] [INFO] [1791383848.384768955] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383848.385467425] [coverage_planner]: 离边界仅-0.01m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383848.435057518] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.69右空4.69
+[python3-5] [INFO] [1791383848.435519193] [coverage_planner]: 航点30第3次失败
+[python3-5] [WARN] [1791383848.436015099] [coverage_planner]: 🚨 航点30失败3次，跳过
+[python3-5] [WARN] [1791383848.983601990] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空2.74右空3.75
+[python3-5] [INFO] [1791383848.983855984] [coverage_planner]: 航点31第1次失败
+[python3-5] [INFO] [1791383848.984109359] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383848.984546035] [coverage_planner]: 离边界仅0.01m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383849.034209942] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.74右空3.73
+[python3-5] [INFO] [1791383849.034585038] [coverage_planner]: 航点31第2次失败
+[python3-5] [INFO] [1791383849.034930628] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383849.035519799] [coverage_planner]: 离边界仅0.00m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383849.084507388] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.73右空3.73
+[python3-5] [INFO] [1791383849.084886703] [coverage_planner]: 航点31第3次失败
+[python3-5] [WARN] [1791383849.085242579] [coverage_planner]: 🚨 航点31失败3次，跳过
+[python3-5] [WARN] [1791383849.187664247] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.71右空3.70
+[python3-5] [INFO] [1791383849.188773127] [coverage_planner]: 航点32第1次失败
+[python3-5] [INFO] [1791383849.189806932] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383849.191384750] [coverage_planner]: 离边界仅-0.09m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383849.237406061] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.285765418] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.70,-3.16)
+[python3-5] [WARN] [1791383849.287385297] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.334201499] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.70,-3.19)
+[python3-5] [WARN] [1791383849.335135587] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.384325023] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.71,-3.20)
+[python3-5] [WARN] [1791383849.385298650] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.434210449] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.70,-3.20)
+[python3-5] [WARN] [1791383849.435066393] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.483650938] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.70,-3.17)
+[python3-5] [WARN] [1791383849.484145847] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.534754934] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.585150020] [coverage_planner]: 🚨 机器人越界! 当前(-2.7,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383849.635641216] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.71右空4.54
+[python3-5] [INFO] [1791383849.636121968] [coverage_planner]: 航点32第2次失败
+[python3-5] [INFO] [1791383849.636574445] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383849.637343065] [coverage_planner]: 离边界仅-0.03m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383849.686366870] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.72右空4.47
+[python3-5] [INFO] [1791383849.686908143] [coverage_planner]: 航点32第3次失败
+[python3-5] [WARN] [1791383849.687405572] [coverage_planner]: 🚨 航点32失败3次，跳过
+[python3-5] [WARN] [1791383849.789514332] [coverage_planner]: 触发避障!激光:True(前0.45m) 视觉:False 左空2.73右空4.36
+[python3-5] [INFO] [1791383849.790360558] [coverage_planner]: 航点33第1次失败
+[python3-5] [INFO] [1791383849.790921642] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383849.791883469] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383849.835692625] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.75右空4.33
+[python3-5] [INFO] [1791383849.836054754] [coverage_planner]: 航点33第2次失败
+[python3-5] [INFO] [1791383849.836390430] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383849.836972403] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383849.886215635] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.74右空4.30
+[python3-5] [INFO] [1791383849.886670860] [coverage_planner]: 航点33第3次失败
+[python3-5] [WARN] [1791383849.887162158] [coverage_planner]: 🚨 航点33失败3次，跳过
+[python3-5] [WARN] [1791383849.986947730] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.72右空4.32
+[python3-5] [INFO] [1791383849.987417233] [coverage_planner]: 航点34第1次失败
+[python3-5] [INFO] [1791383849.987810249] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383849.988412992] [coverage_planner]: 离边界仅-0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383850.036505915] [coverage_planner]: 触发避障!激光:True(前0.53m) 视觉:False 左空2.73右空4.45
+[python3-5] [INFO] [1791383850.037119481] [coverage_planner]: 航点34第2次失败
+[python3-5] [INFO] [1791383850.037671431] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383850.038621859] [coverage_planner]: 离边界仅-0.08m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383850.086813855] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.70右空4.65
+[python3-5] [INFO] [1791383850.087238016] [coverage_planner]: 航点34第3次失败
+[python3-5] [WARN] [1791383850.087683279] [coverage_planner]: 🚨 航点34失败3次，跳过
+[python3-5] [WARN] [1791383850.134742185] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.67,-3.18)
+[python3-5] [WARN] [1791383850.184912386] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.67,-3.24)
+[python3-5] [WARN] [1791383850.236430468] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.66,-3.28)
+[python3-5] [WARN] [1791383850.287211970] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.66,-3.32)
+[python3-5] [WARN] [1791383850.336538413] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.65,-3.34)
+[python3-5] [WARN] [1791383850.386051059] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.65,-3.35)
+[python3-5] [WARN] [1791383850.436496462] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.65,-3.35)
+[python3-5] [WARN] [1791383850.485180070] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.64,-3.35)
+[python3-5] [WARN] [1791383850.535845456] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.64,-3.35)
+[python3-5] [INFO] [1791383850.547183117] [coverage_planner]: 🌀 预检:航段46->47被挡，提前插入13个绕障圆弧航点
+[python3-5] [WARN] [1791383850.584728311] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.64,-3.35)
+[python3-5] [WARN] [1791383850.635766450] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.64,-3.35)
+[python3-5] [WARN] [1791383850.685347815] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.63,-3.35)
+[python3-5] [WARN] [1791383850.735559673] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.63,-3.35)
+[python3-5] [WARN] [1791383850.784804670] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.63,-3.35)
+[python3-5] [WARN] [1791383850.836062807] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.63,-3.35)
+[python3-5] [WARN] [1791383850.885607282] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.62,-3.35)
+[python3-5] [WARN] [1791383850.886904374] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.4)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383850.935579810] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.62,-3.35)
+[python3-5] [WARN] [1791383850.936739855] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.4)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383850.986190413] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.62,-3.33)
+[python3-5] [WARN] [1791383850.988030574] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383851.036431770] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.62,-3.29)
+[python3-5] [WARN] [1791383851.038074807] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383851.085427347] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.61,-3.24)
+[python3-5] [WARN] [1791383851.086409405] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383851.137498290] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.60,-3.19)
+[python3-5] [WARN] [1791383851.139867434] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383851.187969378] [coverage_planner]: 🚨 机器人越界! 当前(-2.6,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383851.237298802] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.80右空4.77
+[python3-5] [INFO] [1791383851.237898384] [coverage_planner]: 航点35第1次失败
+[python3-5] [INFO] [1791383851.238482610] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383851.239406206] [coverage_planner]: 离边界仅-0.09m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383851.287166218] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空2.80右空4.79
+[python3-5] [INFO] [1791383851.287572261] [coverage_planner]: 航点35第2次失败
+[python3-5] [INFO] [1791383851.287898747] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383851.288433204] [coverage_planner]: 离边界仅-0.04m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383851.338064582] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空2.80右空4.82
+[python3-5] [INFO] [1791383851.338931981] [coverage_planner]: 航点35第3次失败
+[python3-5] [WARN] [1791383851.339952829] [coverage_planner]: 🚨 航点35失败3次，跳过
+[python3-5] [WARN] [1791383851.437727832] [coverage_planner]: 触发避障!激光:True(前0.45m) 视觉:False 左空2.81右空4.70
+[python3-5] [INFO] [1791383851.438271835] [coverage_planner]: 航点36第1次失败
+[python3-5] [INFO] [1791383851.438731249] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383851.439415044] [coverage_planner]: 离边界仅-0.01m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383851.486269949] [coverage_planner]: 触发避障!激光:True(前0.45m) 视觉:False 左空2.81右空4.63
+[python3-5] [INFO] [1791383851.486482201] [coverage_planner]: 航点36第2次失败
+[python3-5] [INFO] [1791383851.486662067] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383851.486957015] [coverage_planner]: 离边界仅-0.01m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383851.536681107] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.82右空4.63
+[python3-5] [INFO] [1791383851.537166013] [coverage_planner]: 航点36第3次失败
+[python3-5] [WARN] [1791383851.537716250] [coverage_planner]: 🚨 航点36失败3次，跳过
+[python3-5] [WARN] [1791383851.639204519] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.80右空4.64
+[python3-5] [INFO] [1791383851.640229676] [coverage_planner]: 航点37第1次失败
+[python3-5] [INFO] [1791383851.641125333] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383851.642211715] [coverage_planner]: 离边界仅-0.12m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383851.688315948] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.79右空4.81
+[python3-5] [INFO] [1791383851.688931931] [coverage_planner]: 航点37第2次失败
+[python3-5] [INFO] [1791383851.689469561] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383851.690388213] [coverage_planner]: 离边界仅-0.15m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383851.736349944] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.58,-3.19)
+[python3-5] [WARN] [1791383851.737849822] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空2.81右空5.06
+[python3-5] [INFO] [1791383851.738307323] [coverage_planner]: 航点37第3次失败
+[python3-5] [WARN] [1791383851.738842249] [coverage_planner]: 🚨 航点37失败3次，跳过
+[python3-5] [WARN] [1791383851.787623110] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.58,-3.25)
+[python3-5] [WARN] [1791383851.835749743] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.57,-3.30)
+[python3-5] [WARN] [1791383851.885749023] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.57,-3.36)
+[python3-5] [WARN] [1791383851.936864280] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.56,-3.40)
+[python3-5] [WARN] [1791383851.986071516] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.56,-3.42)
+[python3-5] [WARN] [1791383852.036242971] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.56,-3.43)
+[python3-5] [WARN] [1791383852.087371081] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.55,-3.43)
+[python3-5] [WARN] [1791383852.137869309] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.55,-3.43)
+[python3-5] [WARN] [1791383852.187008265] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.55,-3.43)
+[python3-5] [WARN] [1791383852.237199164] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.55,-3.43)
+[python3-5] [WARN] [1791383852.286185365] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.43)
+[python3-5] [WARN] [1791383852.336091461] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.43)
+[python3-5] [WARN] [1791383852.386051602] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.43)
+[python3-5] [WARN] [1791383852.436379250] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.43)
+[python3-5] [WARN] [1791383852.437225365] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.4)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.487040015] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.54,-3.43)
+[python3-5] [WARN] [1791383852.488373630] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.4)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.536590128] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.40)
+[python3-5] [WARN] [1791383852.537331695] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.4)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.586786140] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.36)
+[python3-5] [WARN] [1791383852.587619969] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.4)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.636205864] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.31)
+[python3-5] [WARN] [1791383852.636886160] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.687415945] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.53,-3.26)
+[python3-5] [WARN] [1791383852.688627746] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.736131121] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.21)
+[python3-5] [WARN] [1791383852.736941872] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383852.786652331] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.52,-3.17)
+[python3-5] [WARN] [1791383852.787672436] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.87右空5.41
+[python3-5] [INFO] [1791383852.787964102] [coverage_planner]: 航点38第1次失败
+[python3-5] [INFO] [1791383852.788290885] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383852.788828223] [coverage_planner]: 离边界仅-0.17m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383852.839383944] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.88右空5.46
+[python3-5] [INFO] [1791383852.840034247] [coverage_planner]: 航点38第2次失败
+[python3-5] [INFO] [1791383852.840566496] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383852.841454196] [coverage_planner]: 离边界仅-0.12m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383852.888101527] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空2.88右空5.46
+[python3-5] [INFO] [1791383852.888592336] [coverage_planner]: 航点38第3次失败
+[python3-5] [WARN] [1791383852.889098504] [coverage_planner]: 🚨 航点38失败3次，跳过
+[python3-5] [WARN] [1791383853.038112854] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.88右空5.22
+[python3-5] [INFO] [1791383853.038510592] [coverage_planner]: 航点39第1次失败
+[python3-5] [INFO] [1791383853.038825617] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383853.039349981] [coverage_planner]: 离边界仅-0.09m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383853.087233842] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空2.89右空5.16
+[python3-5] [INFO] [1791383853.087460466] [coverage_planner]: 航点39第2次失败
+[python3-5] [INFO] [1791383853.087654282] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383853.087960231] [coverage_planner]: 离边界仅-0.09m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383853.137100812] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.87右空5.16
+[python3-5] [INFO] [1791383853.137292632] [coverage_planner]: 航点39第3次失败
+[python3-5] [WARN] [1791383853.137495093] [coverage_planner]: 🚨 航点39失败3次，跳过
+[python3-5] [WARN] [1791383853.237460451] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.19)
+[python3-5] [WARN] [1791383853.289150591] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.21)
+[python3-5] [WARN] [1791383853.340258586] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.22)
+[python3-5] [WARN] [1791383853.388758474] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.22)
+[python3-5] [WARN] [1791383853.436795384] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.51,-3.22)
+[python3-5] [WARN] [1791383853.488952569] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.23)
+[python3-5] [WARN] [1791383853.537573171] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.23)
+[python3-5] [WARN] [1791383853.587137315] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.23)
+[python3-5] [WARN] [1791383853.639171476] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.23)
+[python3-5] [WARN] [1791383853.641427636] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.89右空4.73
+[python3-5] [INFO] [1791383853.642140213] [coverage_planner]: 航点40第1次失败
+[python3-5] [INFO] [1791383853.642744885] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383853.643722803] [coverage_planner]: 离边界仅-0.23m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383853.689159394] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.23)
+[python3-5] [WARN] [1791383853.690775207] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383853.737548685] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.25)
+[python3-5] [WARN] [1791383853.738872086] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383853.786995475] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.24)
+[python3-5] [WARN] [1791383853.787831588] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383853.837766473] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.50,-3.22)
+[python3-5] [WARN] [1791383853.838785384] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383853.887214944] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.18)
+[python3-5] [WARN] [1791383853.888423742] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.89右空4.73
+[python3-5] [INFO] [1791383853.888817877] [coverage_planner]: 航点40第2次失败
+[python3-5] [INFO] [1791383853.889205431] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383853.889842881] [coverage_planner]: 离边界仅-0.18m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383853.938243462] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.90右空4.79
+[python3-5] [INFO] [1791383853.938639593] [coverage_planner]: 航点40第3次失败
+[python3-5] [WARN] [1791383853.939055735] [coverage_planner]: 🚨 航点40失败3次，跳过
+[python3-5] [WARN] [1791383854.041115567] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.90右空4.76
+[python3-5] [INFO] [1791383854.042157902] [coverage_planner]: 航点41第1次失败
+[python3-5] [INFO] [1791383854.043112416] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383854.044514932] [coverage_planner]: 离边界仅-0.10m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383854.088935584] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.92右空4.73
+[python3-5] [INFO] [1791383854.089422147] [coverage_planner]: 航点41第2次失败
+[python3-5] [INFO] [1791383854.089873526] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383854.090648768] [coverage_planner]: 离边界仅-0.10m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383854.138213889] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.91右空4.71
+[python3-5] [INFO] [1791383854.138584971] [coverage_planner]: 航点41第3次失败
+[python3-5] [WARN] [1791383854.138960632] [coverage_planner]: 🚨 航点41失败3次，跳过
+[python3-5] [WARN] [1791383854.187716472] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.16)
+[python3-5] [WARN] [1791383854.237499131] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.20)
+[python3-5] [WARN] [1791383854.287065509] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.23)
+[python3-5] [WARN] [1791383854.337451387] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.49,-3.25)
+[python3-5] [WARN] [1791383854.387756133] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.25)
+[python3-5] [WARN] [1791383854.438513556] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.25)
+[python3-5] [WARN] [1791383854.489349350] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.25)
+[python3-5] [WARN] [1791383854.538409610] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.48,-3.26)
+[python3-5] [WARN] [1791383854.588675073] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.26)
+[python3-5] [WARN] [1791383854.638255811] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.26)
+[python3-5] [WARN] [1791383854.688677655] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.26)
+[python3-5] [WARN] [1791383854.689719277] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383854.738911755] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.47,-3.25)
+[python3-5] [WARN] [1791383854.740102604] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383854.788793197] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.23)
+[python3-5] [WARN] [1791383854.789732335] [coverage_planner]: 🚨 机器人越界! 当前(-2.5,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383854.839422377] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.19)
+[python3-5] [WARN] [1791383854.841012527] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空2.93右空4.33
+[python3-5] [INFO] [1791383854.841525602] [coverage_planner]: 航点42第1次失败
+[python3-5] [INFO] [1791383854.842308665] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383854.843317717] [coverage_planner]: 离边界仅-0.19m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383854.889270289] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.93右空4.37
+[python3-5] [INFO] [1791383854.889560836] [coverage_planner]: 航点42第2次失败
+[python3-5] [INFO] [1791383854.889777746] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383854.890181685] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383854.939216288] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.94右空4.39
+[python3-5] [INFO] [1791383854.939606623] [coverage_planner]: 航点42第3次失败
+[python3-5] [WARN] [1791383854.939948260] [coverage_planner]: 🚨 航点42失败3次，跳过
+[python3-5] [WARN] [1791383855.039600784] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.95右空4.35
+[python3-5] [INFO] [1791383855.040052777] [coverage_planner]: 航点43第1次失败
+[python3-5] [INFO] [1791383855.040399816] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383855.041047751] [coverage_planner]: 离边界仅-0.11m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383855.091013745] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.95右空4.29
+[python3-5] [INFO] [1791383855.091569860] [coverage_planner]: 航点43第2次失败
+[python3-5] [INFO] [1791383855.092109502] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383855.092960170] [coverage_planner]: 离边界仅-0.12m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383855.140183908] [coverage_planner]: 触发避障!激光:True(前0.49m) 视觉:False 左空2.94右空4.28
+[python3-5] [INFO] [1791383855.140538390] [coverage_planner]: 航点43第3次失败
+[python3-5] [WARN] [1791383855.140894238] [coverage_planner]: 🚨 航点43失败3次，跳过
+[python3-5] [WARN] [1791383855.188235070] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.18)
+[python3-5] [WARN] [1791383855.239118101] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.22)
+[python3-5] [WARN] [1791383855.289225068] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.25)
+[python3-5] [WARN] [1791383855.339182376] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.46,-3.26)
+[python3-5] [WARN] [1791383855.388997993] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.27)
+[python3-5] [WARN] [1791383855.438607968] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.27)
+[python3-5] [WARN] [1791383855.489962154] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.27)
+[python3-5] [WARN] [1791383855.538741134] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.45,-3.27)
+[python3-5] [WARN] [1791383855.589299124] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.27)
+[python3-5] [WARN] [1791383855.639943227] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.27)
+[python3-5] [WARN] [1791383855.688816606] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.27)
+[python3-5] [WARN] [1791383855.739069673] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.27)
+[python3-5] [WARN] [1791383855.740216516] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383855.789065053] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.44,-3.27)
+[python3-5] [WARN] [1791383855.790199030] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383855.839035058] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.43,-3.25)
+[python3-5] [WARN] [1791383855.839707373] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383855.888478811] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.21)
+[python3-5] [WARN] [1791383855.889075982] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空2.96右空3.87
+[python3-5] [INFO] [1791383855.889238268] [coverage_planner]: 航点44第1次失败
+[python3-5] [INFO] [1791383855.889400255] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383855.889659367] [coverage_planner]: 离边界仅-0.21m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383855.938348552] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.16)
+[python3-5] [WARN] [1791383855.939040375] [coverage_planner]: 触发避障!激光:True(前0.55m) 视觉:False 左空2.97右空3.92
+[python3-5] [INFO] [1791383855.939242295] [coverage_planner]: 航点44第2次失败
+[python3-5] [INFO] [1791383855.939435992] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383855.939762000] [coverage_planner]: 离边界仅-0.16m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383855.989486454] [coverage_planner]: 触发避障!激光:True(前0.51m) 视觉:False 左空2.99右空3.95
+[python3-5] [INFO] [1791383855.989814447] [coverage_planner]: 航点44第3次失败
+[python3-5] [WARN] [1791383855.990113262] [coverage_planner]: 🚨 航点44失败3次，跳过
+[python3-5] [WARN] [1791383856.190038420] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.99右空3.79
+[python3-5] [INFO] [1791383856.190452376] [coverage_planner]: 航点45第1次失败
+[python3-5] [INFO] [1791383856.190805841] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383856.191385020] [coverage_planner]: 离边界仅-0.13m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383856.240329425] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.00右空3.76
+[python3-5] [INFO] [1791383856.240784114] [coverage_planner]: 航点45第2次失败
+[python3-5] [INFO] [1791383856.241195995] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383856.241938018] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383856.289291097] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.16)
+[python3-5] [WARN] [1791383856.290548426] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空3.00右空3.74
+[python3-5] [INFO] [1791383856.290910518] [coverage_planner]: 航点45第3次失败
+[python3-5] [WARN] [1791383856.291319434] [coverage_planner]: 🚨 航点45失败3次，跳过
+[python3-5] [WARN] [1791383856.339536448] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.20)
+[python3-5] [WARN] [1791383856.389411399] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.24)
+[python3-5] [WARN] [1791383856.441602233] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.27)
+[python3-5] [WARN] [1791383856.490301931] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.28)
+[python3-5] [WARN] [1791383856.541253074] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.29)
+[python3-5] [WARN] [1791383856.590369255] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.29)
+[python3-5] [WARN] [1791383856.640927404] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.42,-3.29)
+[python3-5] [WARN] [1791383856.690406167] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.29)
+[python3-5] [WARN] [1791383856.740511173] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.29)
+[python3-5] [WARN] [1791383856.790381811] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.29)
+[python3-5] [WARN] [1791383856.840220937] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.41,-3.29)
+[python3-5] [WARN] [1791383856.890239863] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.29)
+[python3-5] [WARN] [1791383856.939675707] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.29)
+[python3-5] [WARN] [1791383856.940301387] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383856.989612980] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.29)
+[python3-5] [WARN] [1791383856.990153071] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.040292779] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.40,-3.27)
+[python3-5] [WARN] [1791383857.041235099] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.3)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.090748890] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.38,-3.23)
+[python3-5] [WARN] [1791383857.091724832] [coverage_planner]: 🚨 机器人越界! 当前(-2.4,-3.2)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.140355642] [coverage_planner]: ⚠️ 机器人接近/超出边界! 当前(-2.36,-3.19)
+[python3-5] [WARN] [1791383857.141334245] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空3.02右空3.33
+[python3-5] [INFO] [1791383857.141638419] [coverage_planner]: 航点46第1次失败
+[python3-5] [INFO] [1791383857.141919137] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383857.142373242] [coverage_planner]: 离边界仅-0.19m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383857.191707074] [coverage_planner]: 触发避障!激光:True(前0.52m) 视觉:False 左空3.02右空3.37
+[python3-5] [INFO] [1791383857.192086756] [coverage_planner]: 航点46第2次失败
+[python3-5] [INFO] [1791383857.192410439] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383857.192934447] [coverage_planner]: 离边界仅-0.14m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383857.242281843] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空3.06右空3.38
+[python3-5] [INFO] [1791383857.242638706] [coverage_planner]: 航点46第3次失败
+[python3-5] [WARN] [1791383857.242974822] [coverage_planner]: 🚨 航点46失败3次，跳过
+[python3-5] [WARN] [1791383857.441220551] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.490929376] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.541012708] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.590641542] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.641326732] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383857.693996398] [coverage_planner]: ⚠️ 接近边界! 当前(-2.3,-3.0)，减速
+[python3-5] [WARN] [1791383857.743280195] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.17右空3.42
+[python3-5] [INFO] [1791383857.744256942] [coverage_planner]: 航点47第1次失败
+[python3-5] [INFO] [1791383857.744869896] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383857.745827629] [coverage_planner]: 离边界仅0.07m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383857.790839671] [coverage_planner]: 触发避障!激光:True(前0.26m) 视觉:False 左空3.19右空3.47
+[python3-5] [INFO] [1791383857.791193058] [coverage_planner]: 航点47第2次失败
+[python3-5] [INFO] [1791383857.791511850] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383857.792053157] [coverage_planner]: 离边界仅0.08m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383857.840120641] [coverage_planner]: 触发避障!激光:True(前0.26m) 视觉:False 左空3.18右空3.49
+[python3-5] [INFO] [1791383857.840338538] [coverage_planner]: 航点47第3次失败
+[python3-5] [WARN] [1791383857.840574503] [coverage_planner]: 🚨 航点47失败3次，跳过
+[python3-5] [WARN] [1791383858.241560383] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383858.291295315] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383858.343047375] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383858.391660110] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383858.441548700] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.23右空3.13
+[python3-5] [INFO] [1791383858.441958253] [coverage_planner]: 航点48第1次失败
+[python3-5] [INFO] [1791383858.442337195] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383858.443003983] [coverage_planner]: 离边界仅0.05m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383858.493187498] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.25右空3.13
+[python3-5] [INFO] [1791383858.493918958] [coverage_planner]: 航点48第2次失败
+[python3-5] [INFO] [1791383858.494580660] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383858.495602252] [coverage_planner]: 离边界仅0.04m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383858.542642365] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空3.24右空3.15
+[python3-5] [INFO] [1791383858.543236282] [coverage_planner]: 航点48第3次失败
+[python3-5] [WARN] [1791383858.543868278] [coverage_planner]: 🚨 航点48失败3次，跳过
+[python3-5] [WARN] [1791383859.044561086] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383859.093800902] [coverage_planner]: 🚨 机器人越界! 当前(-2.3,-3.1)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383859.142121495] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383859.191179116] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.243658735] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.292604457] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.341695067] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.391350832] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.441584221] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.492162956] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.544791451] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.592158052] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.644304135] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.692957065] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.742930550] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.793295054] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.29右空3.13
+[python3-5] [INFO] [1791383859.794054011] [coverage_planner]: 航点49第1次失败
+[python3-5] [INFO] [1791383859.794791534] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383859.796026148] [coverage_planner]: 离边界仅0.03m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383859.841953667] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.27右空3.16
+[python3-5] [INFO] [1791383859.842216223] [coverage_planner]: 航点49第2次失败
+[python3-5] [INFO] [1791383859.842466667] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383859.842881543] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383859.891890928] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383859.941532988] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383859.992537132] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383860.041897803] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383860.093550393] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383860.145132871] [coverage_planner]: 🚨 机器人越界! 当前(-2.2,-3.0)，直接朝目标返回边界内
+[python3-5] [WARN] [1791383860.192972712] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.242637504] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.293152140] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.342931626] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.392824818] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.443113018] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.492861038] [coverage_planner]: ⚠️ 接近边界! 当前(-2.2,-3.0)，减速
+[python3-5] [WARN] [1791383860.542369372] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.592347839] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.642973419] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.694217928] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.743272094] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.794149634] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.843125850] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.893542260] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.943560048] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383860.993996085] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.046103721] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.094827552] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.144729374] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.194190124] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.244129800] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.293579575] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.343844660] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.394681906] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.443827127] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.494186306] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.543921868] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.594113323] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.643886335] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383861.693542487] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空3.36右空3.08
+[python3-5] [INFO] [1791383861.693821629] [coverage_planner]: 航点49第3次失败
+[python3-5] [WARN] [1791383861.694114363] [coverage_planner]: 🚨 航点49失败3次，跳过
+[python3-5] [WARN] [1791383862.146713495] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.194537884] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.245311447] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.294626007] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.343602923] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.393674693] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.444349679] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.494156617] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.544055379] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.596724734] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.646512017] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.696327762] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.746160913] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.794753954] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.846524129] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.894002122] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.944171975] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383862.994509658] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383863.044283577] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383863.095682101] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383863.145528772] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383863.195269367] [coverage_planner]: ⚠️ 接近边界! 当前(-2.1,-3.0)，减速
+[python3-5] [WARN] [1791383863.245770715] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.294763446] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.344426711] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.394061406] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.443935838] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.494936671] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.544594990] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.595035010] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.645281725] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.695864029] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.745385300] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.795741801] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.844694974] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.895201191] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.946260374] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383863.995748275] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.045135234] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.094955761] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.146479114] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.195586880] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.245042177] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.294790996] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.345604082] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.395122243] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.445166698] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.495036398] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.545436471] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.595027159] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.645170590] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.696384723] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.746014303] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.795830586] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.846688522] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.896749289] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.946169801] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383864.996572165] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.046367705] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.097873617] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.147782844] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.197278104] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.246661242] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.296966581] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.347659649] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.396480121] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.447362334] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.497421701] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.547723542] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.597916554] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.649268251] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.699340641] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.746897546] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.798081291] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.847369338] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.897842644] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.948354518] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383865.998209170] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.049470205] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.098721512] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.150566489] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.200386565] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.247959369] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.297093316] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.348669162] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.397470489] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.448551866] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.498076331] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.548018076] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.597774520] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.648359155] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.699041991] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.748374086] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.797825486] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.848202665] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.897165598] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.947503792] [coverage_planner]: ⚠️ 接近边界! 当前(-2.0,-3.0)，减速
+[python3-5] [WARN] [1791383866.997893448] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.048927838] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.098095398] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.149402253] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.198013297] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.248691420] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.298768424] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.347958560] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.399431974] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.448202936] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.497416555] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.547637736] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.598186823] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.647509930] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.698009843] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.748142821] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.798420573] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.848280322] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.899116595] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.948324353] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383867.999221412] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.048691327] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.098542974] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.148321407] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.198526387] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.248923319] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.298630292] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.348729710] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.399092192] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.448718044] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.498295818] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.549559451] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.598563892] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.648287491] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.698006357] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.747944877] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.797764016] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.851669925] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.898867964] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.949378509] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383868.999193554] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.049551510] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.099508174] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.149074295] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.202143990] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.250287356] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.300368256] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.351666021] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.400398934] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.449334248] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.499465545] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.551338476] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.601469730] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.649580490] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.700675261] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.751190318] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.800786130] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.850161200] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.899806838] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383869.950337212] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.002190184] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.052062788] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.43右空3.12
+[python3-5] [INFO] [1791383870.052637078] [coverage_planner]: 航点50第1次失败
+[python3-5] [INFO] [1791383870.053126075] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383870.053905073] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383870.100694620] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.150819510] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.199826513] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.252274253] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.302194771] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.349948461] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.402295656] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.451432309] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.499552044] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.550585107] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.600295537] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.650299089] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.700388551] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空0.43右空3.09
+[python3-5] [INFO] [1791383870.700777983] [coverage_planner]: 航点50第2次失败
+[python3-5] [INFO] [1791383870.701108413] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383870.701689796] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383870.751721083] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383870.800737099] [coverage_planner]: ⚠️ 接近边界! 当前(-1.9,-3.0)，减速
+[python3-5] [WARN] [1791383870.852133770] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383870.900907264] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383870.951777826] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.001824902] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.051265326] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.101148549] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.151928686] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.202791381] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.251713193] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.301284897] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.351331111] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.402607101] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.451385704] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383871.502396653] [coverage_planner]: 触发避障!激光:True(前0.29m) 视觉:False 左空0.42右空3.11
+[python3-5] [INFO] [1791383871.502894202] [coverage_planner]: 航点50第3次失败
+[python3-5] [WARN] [1791383871.503387044] [coverage_planner]: 🚨 航点50失败3次，跳过
+[python3-5] [WARN] [1791383871.952750996] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.002776407] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.053697222] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.102754403] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.152692315] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.205627764] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.252764283] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.303543442] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.351625562] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.402640276] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.451942048] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.502937254] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.552608649] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.602448513] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.653962191] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.701797802] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.752616866] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.805339520] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.853222915] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.901375378] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383872.954773121] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.004719710] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.053491251] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.103691909] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.154288944] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.204346963] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.254464395] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.304174172] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.353167298] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.403435437] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.42右空2.98
+[python3-5] [INFO] [1791383873.403994277] [coverage_planner]: 航点51第1次失败
+[python3-5] [INFO] [1791383873.404506598] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [WARN] [1791383873.405366461] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383873.453510078] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.502289811] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.552853825] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.605765124] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.655471416] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.703823477] [coverage_planner]: ⚠️ 接近边界! 当前(-1.8,-3.0)，减速
+[python3-5] [WARN] [1791383873.755353767] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383873.804978339] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383873.853210953] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383873.906330641] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383873.954770535] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.004539913] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.054886459] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.102680785] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.153295967] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.204983909] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.252741696] [coverage_planner]: 触发避障!激光:True(前0.30m) 视觉:False 左空0.41右空3.00
+[python3-5] [INFO] [1791383874.252946834] [coverage_planner]: 航点51第2次失败
+[python3-5] [INFO] [1791383874.253116692] [coverage_planner]: 连续避障第2次，保持向左绕行
+[python3-5] [WARN] [1791383874.253405373] [coverage_planner]: 离边界仅0.02m，保守脱困：后退+旋转
+[python3-5] [WARN] [1791383874.303069450] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.355698746] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.403299842] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.455304235] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.505146282] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.554859545] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.604504475] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.653913651] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.704523720] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.754782791] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.806348794] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.855653703] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.906632069] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383874.954611717] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.004557709] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.054982024] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.104404590] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.155287475] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.205628650] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.257071890] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.304462549] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.354277378] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.404022313] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.453693652] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.504877694] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.555662184] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.605665093] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.655207776] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.705872221] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.755892628] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.806956369] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.857548660] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.905948064] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383875.956551873] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.006126129] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.056243675] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.106001152] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.155741506] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.207578051] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.256652843] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.307971569] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.355568696] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.406027963] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.455957196] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.506193666] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.557330595] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.606632010] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.656551135] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.707055477] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.758143229] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.807082276] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.857476910] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.906858249] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383876.956312403] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383877.008831778] [coverage_planner]: ⚠️ 接近边界! 当前(-1.7,-3.0)，减速
+[python3-5] [WARN] [1791383877.056632013] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.105887019] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.156409196] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.207920012] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.257091626] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.307882998] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.358652409] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.407739765] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.457775373] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.508714099] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.557355675] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.608391050] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.658664640] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.707000648] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.757330487] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.806912713] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.856337532] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.906696505] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383877.957436981] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.006543084] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.056525650] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.107340538] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.156909054] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.207590884] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.257534553] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.306578836] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.358056797] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.407919838] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.457916789] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.507749713] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.559930096] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.608304611] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.659563405] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.709135820] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.757679297] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.809682000] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.859810328] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.908663533] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383878.958700271] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.007818628] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.058885910] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.108711274] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.158544765] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.208585038] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.259133991] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.310926812] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.357977743] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.409352096] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.459169708] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[async_slam_toolbox_node-4] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[async_slam_toolbox_node-4] W1007 22:37:59.503752 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-5] [WARN] [1791383879.510586073] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.561648146] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.609382145] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.658664026] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.708753445] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.759190450] [coverage_planner]: ⚠️ 接近边界! 当前(-1.6,-3.0)，减速
+[python3-5] [WARN] [1791383879.810006475] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383879.859644294] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383879.909098167] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383879.959263723] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.010248813] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.060793025] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.108955270] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.159399364] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.212253444] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.260862703] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.309435770] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.360322297] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.408477008] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.459705726] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.509751873] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.559323428] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.609996406] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-3.0)，减速
+[python3-5] [WARN] [1791383880.660064613] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383880.710676404] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383880.761369806] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383880.810591693] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383880.859465855] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383880.909679863] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383880.960589381] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.010326306] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.060954200] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.110979690] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.160776857] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.210258599] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.260642507] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.313826068] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.361001340] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.410861973] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.461935239] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.510874565] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.560630374] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.611524626] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.661326695] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.711790651] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.760514960] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.810043049] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.860747158] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.911179043] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383881.961139650] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383882.010900950] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383882.060970791] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383882.110467836] [coverage_planner]: ⚠️ 接近边界! 当前(-1.5,-2.9)，减速
+[python3-5] [WARN] [1791383882.160180154] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.210976375] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.261674344] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.311995785] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.360509690] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.411239055] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.460329662] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.511759548] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[async_slam_toolbox_node-4] W1007 22:38:02.554539 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-5] [WARN] [1791383882.561329032] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.9)，减速
+[python3-5] [WARN] [1791383882.611176285] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[python3-5] [WARN] [1791383882.662420366] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[python3-5] [WARN] [1791383882.710956073] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[python3-5] [WARN] [1791383882.761263136] [coverage_planner]: ⚠️ 接近边界! 当前(-1.4,-2.8)，减速
+[async_slam_toolbox_node-4] W1007 22:38:02.905903 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 22:38:03.147778 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 22:38:03.396801 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-5] [WARN] [1791383890.618917111] [coverage_planner]: ⚠️ 接近边界! 当前(-1.0,-2.8)，减速
+[python3-5] [WARN] [1791383890.668740921] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-5] [WARN] [1791383890.717935618] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-5] [WARN] [1791383890.769014095] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-5] [WARN] [1791383890.819211527] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-5] [WARN] [1791383890.869348836] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.8)，减速
+[python3-5] [WARN] [1791383890.918053985] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.9)，减速
+[python3-5] [WARN] [1791383890.969249109] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.9)，减速
+[python3-5] [WARN] [1791383891.019041803] [coverage_planner]: ⚠️ 接近边界! 当前(-1.1,-2.9)，减速
+[python3-5] [WARN] [1791383891.118221504] [coverage_planner]: 🚫 航点60(-1.40,-2.60)被最新地图判为危险（在障碍物上或太近），跳过
+[async_slam_toolbox_node-4] W1007 22:38:17.516883 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 22:38:18.161578 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[async_slam_toolbox_node-4] W1007 22:38:37.539428 216836 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-5] [INFO] [1791383975.151051036] [coverage_planner]: 🌀 预检:航段136->137被挡，提前插入14个绕障圆弧航点
+[python3-5] [WARN] [1791383988.990910067] [coverage_planner]: 触发避障!激光:True(前0.57m) 视觉:False 左空6.80右空0.84
+[python3-5] [INFO] [1791383988.991114026] [coverage_planner]: 航点136第1次失败
+[python3-5] [INFO] [1791383988.991613321] [coverage_planner]: 📡 雷达单独检测，左侧空旷(6.80m)且边界安全，向左绕行
+[python3-5] [INFO] [1791383988.991779338] [coverage_planner]: 方向修正：目标在右且右侧安全，改为向右绕
+[python3-5] [INFO] [1791383988.992361282] [coverage_planner]: 开始绕行: (2.01, 1.09)
+[python3-5] [WARN] [1791383991.493665270] [coverage_planner]: 前方仍有障碍，跳过航点 136
+[python3-5] [INFO] [1791384226.642124915] [coverage_planner]: 🏁 单程覆盖完成，发布 /coverage_done
+[python3-6] [INFO] [1791384226.643316217] [metrics_recorder]: 📼 收到 /coverage_done, t=834.6
+[python3-5] [INFO] [1791384226.643541262] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384226.690995033] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791384226.733393139] [metrics_recorder]: 📼 落盘完成: status=done odom=40322 点, 时长=806.5
+[python3-5] [INFO] [1791384226.740824892] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384226.791956491] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384226.842681686] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384226.892080220] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384226.943567029] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384226.993064829] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.042861015] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.092851357] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.143280333] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.194101526] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.242513151] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.293134207] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.343420246] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.392321748] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.444033262] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.491792598] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791384227.543735381] [coverage_planner]: ✅ 往返覆盖完成
