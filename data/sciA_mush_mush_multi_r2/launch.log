@@ -1,0 +1,353 @@
+[INFO] [launch]: All log files can be found below /home/abc/.ros/log/2026-10-08-02-16-04-813435-123-237149
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [237157]
+[INFO] [gzserver-2]: process started with pid [237159]
+[robot_state_publisher-1] [WARN] [1791396964.946085239] [kdl_parser]: The root link base_footprint has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-1] [INFO] [1791396964.946137851] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1791396964.946172045] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1791396964.946175294] [robot_state_publisher]: got segment camera_Link
+[robot_state_publisher-1] [INFO] [1791396964.946177702] [robot_state_publisher]: got segment deco_cover_Link
+[robot_state_publisher-1] [INFO] [1791396964.946180387] [robot_state_publisher]: got segment left_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791396964.946182934] [robot_state_publisher]: got segment left_rear_wheel_Link
+[robot_state_publisher-1] [INFO] [1791396964.946185272] [robot_state_publisher]: got segment lidar_Link
+[robot_state_publisher-1] [INFO] [1791396964.946187656] [robot_state_publisher]: got segment right_front_wheel_Link
+[robot_state_publisher-1] [INFO] [1791396964.946189939] [robot_state_publisher]: got segment right_rear_wheel_Link
+[gzserver-2] Gazebo multi-robot simulator, version 11.10.2
+[gzserver-2] Copyright (C) 2012 Open Source Robotics Foundation.
+[gzserver-2] Released under the Apache 2 License.
+[gzserver-2] http://gazebosim.org
+[gzserver-2] 
+[gzserver-2] [1;33m[Wrn] [gazebo_ros_init.cpp:178] [0m[1;33m
+[gzserver-2] #     # ####### ####### ###  #####  #######
+[gzserver-2] ##    # #     #    #     #  #     # #
+[gzserver-2] # #   # #     #    #     #  #       #
+[gzserver-2] #  #  # #     #    #     #  #       #####
+[gzserver-2] #   # # #     #    #     #  #       #
+[gzserver-2] #    ## #     #    #     #  #     # #
+[gzserver-2] #     # #######    #    ###  #####  #######
+[gzserver-2] 
+[gzserver-2] This version of Gazebo, now called Gazebo classic, reaches end-of-life
+[gzserver-2] in January 2025. Users are highly encouraged to migrate to the new Gazebo
+[gzserver-2] using our migration guides (https://gazebosim.org/docs/latest/gazebo_classic_migration?utm_source=gazebo_ros_pkgs&utm_medium=cli)
+[gzserver-2] 
+[gzserver-2] [0m[1;33m
+[INFO] [spawn_entity.py-3]: process started with pid [237443]
+[spawn_entity.py-3] [INFO] [1791396968.252062713] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-3] [INFO] [1791396968.252272481] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-3] [INFO] [1791396968.253333708] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-3] [INFO] [1791396968.264263833] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-3] [INFO] [1791396968.264421448] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791396968.266229466] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-3] [INFO] [1791396968.490179500] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [auto_mower]
+[gzserver-2] [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11520[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.168.177.7[0m[1;32m
+[gzserver-2] [0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/scripts/worlds/lawn_world_rtf2.world[0m[1;32m][0m[1;32m
+[gzserver-2] [0m[1;33m[0m[1;33m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[INFO] [spawn_entity.py-3]: process has finished cleanly [pid 237443]
+[gzserver-2] [0m[INFO] [1791396968.623694206] [camera_controller]: Publishing camera info to [/camera/camera_info]
+[gzserver-2] [1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::body_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::head_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg1_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg2_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg3_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::leg4_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[1;33m[Wrn] [Visual.cc:1056] [0m[1;33mUnable to get Material[[0m[1;33mGazebo/Brown[0m[1;33m] for Geometry[[0m[1;33mdog::link::tail_visual[0m[1;33m. Object will appear white
+[gzserver-2] [0m[INFO] [1791396968.700201369] [diff_drive]: Wheel pair 1 separation set to [0.526460m]
+[gzserver-2] [INFO] [1791396968.700226314] [diff_drive]: Wheel pair 1 diameter set to [0.176000m]
+[gzserver-2] [INFO] [1791396968.700817096] [diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-2] [INFO] [1791396968.701959485] [diff_drive]: Advertise odometry on [/odom]
+[gzserver-2] [INFO] [1791396968.703188816] [diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-2] [INFO] [1791396968.708274122] [joint_state_publisher]: Going to publish joint [joint_left_front_wheel_Link]
+[gzserver-2] [INFO] [1791396968.708292253] [joint_state_publisher]: Going to publish joint [joint_right_front_wheel_Link]
+[gzserver-2] [INFO] [1791396968.708296484] [joint_state_publisher]: Going to publish joint [joint_left_rear_wheel_Link]
+[gzserver-2] [INFO] [1791396968.708300153] [joint_state_publisher]: Going to publish joint [joint_right_rear_wheel_Link]
+[gzserver-2] [INFO] [1791396968.708303264] [joint_state_publisher]: Going to publish joint [joint_camera_Link]
+[INFO] [async_slam_toolbox_node-4]: process started with pid [237540]
+[async_slam_toolbox_node-4] [INFO] [1791396971.281769797] [slam_toolbox]: Node using stack size 40000000
+[async_slam_toolbox_node-4] [INFO] [1791396971.300931814] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-4] [INFO] [1791396971.301039517] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[async_slam_toolbox_node-4] Registering sensor: [Custom Described Lidar]
+[INFO] [python3-5]: process started with pid [237596]
+[INFO] [python3-6]: process started with pid [237598]
+[python3-6] [INFO] [1791396973.591099805] [metrics_recorder]: 📼 记录器启动, out_dir=/home/abc/auto_mower_nav_backup_4-11（复件）/论文输出/实验/data/sciA_mush_mush_multi_r2
+[python3-5] [INFO] [1791396973.593938636] [coverage_planner]: 🌱 CoveragePlanner 已启动
+[python3-5] [INFO] [1791396973.594157353] [coverage_planner]:    边界记录模式: 启动后自动记录 odom，走完后发布 /record_boundary False 即可
+[python3-5] [INFO] [1791396973.595781124] [coverage_planner]: 🧪 实验变体启动: strategy=multi one_pass=True use_vision=False boundary_constraint=True 边界顶点数=8
+[python3-5] [INFO] [1791396973.613087151] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-5] [INFO] [1791396974.513621667] [coverage_planner]: 等待 SLAM 地图 ...
+[python3-5] [INFO] [1791396980.519818288] [coverage_planner]: 🧪 注入边界多边形: 121 点
+[python3-5] [INFO] [1791396980.520018504] [coverage_planner]: 处理边界轨迹，原始点 121 个
+[python3-5] [INFO] [1791396980.520214855] [coverage_planner]: 简化后 121 个点
+[python3-5] [INFO] [1791396980.520377419] [coverage_planner]: 首尾距离: 0.00m
+[python3-5] [INFO] [1791396980.520538091] [coverage_planner]: 已闭合多边形
+[python3-5] [INFO] [1791396980.520715331] [coverage_planner]: ✅ 边界完成: 122 个顶点, x=-3.0~3.0, y=-3.0~3.0
+[python3-5] [INFO] [1791396980.528360412] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396980.533851978] [coverage_planner]: 方向 0.0°: 93 航点, 连接代价 7.3m
+[python3-5] [INFO] [1791396980.534320053] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396980.542793386] [coverage_planner]: 方向 30.0°: 111 航点, 连接代价 13.2m
+[python3-5] [INFO] [1791396980.543245079] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396980.551705595] [coverage_planner]: 方向 60.0°: 100 航点, 连接代价 12.1m
+[python3-5] [INFO] [1791396980.552154759] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396980.557285484] [coverage_planner]: 方向 90.0°: 84 航点, 连接代价 11.8m
+[python3-5] [INFO] [1791396980.557741973] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396980.564947976] [coverage_planner]: 方向 120.0°: 106 航点, 连接代价 13.8m
+[python3-5] [INFO] [1791396980.565395226] [coverage_planner]: 边界已内缩 0.4m，航点离边界更安全
+[python3-5] [INFO] [1791396980.573449635] [coverage_planner]: 方向 150.0°: 108 航点, 连接代价 13.2m
+[python3-5] [INFO] [1791396980.573631286] [coverage_planner]: ✅ [strategy=multi] 选定条纹方向: 0.0° (连接代价 7.3m)
+[python3-5] [WARN] [1791396980.579214069] [coverage_planner]: 🚫 航点 (1.40,1.80) 离障碍物<0.45m，到不了，已跳过
+[python3-5] [WARN] [1791396980.579445245] [coverage_planner]: 🚫 航点 (1.90,1.80) 离障碍物<0.45m，到不了，已跳过
+[python3-5] [INFO] [1791396980.581856435] [coverage_planner]: 路径过滤: 93 -> 91 个安全航点
+[python3-5] [INFO] [1791396980.582041091] [coverage_planner]: 🚀 开始覆盖导航，共 91 个航点，从航点0出发
+[python3-5] [INFO] [1791396980.582796075] [coverage_planner]: 🧪 真值障碍过滤航点: 91 -> 79
+[python3-6] [INFO] [1791396980.592477884] [metrics_recorder]: 📼 覆盖开始: 79 个规划航点, t=28.1
+[python3-5] [INFO] [1791396980.592495547] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.620022579] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.669675053] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.722850318] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.770794206] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.821649954] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.871571445] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.920051759] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396980.970007436] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.020104232] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.070762977] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.121676893] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.170579208] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.221860197] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.271887672] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.321440520] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.373149228] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.422971325] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.471564120] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.522777627] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.571481902] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.621381239] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.672252820] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.722354992] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.772542287] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.820857809] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.870840188] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.920718927] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396981.971394546] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.021136654] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.071349795] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.122246486] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.171267440] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.222631548] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.272822158] [coverage_planner]: 状态:ROTATE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.323386905] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.372525723] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.423215590] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.473088003] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.522636487] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.571842458] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.622800028] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.671495751] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.722798982] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.775369309] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.823860892] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.873275901] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.924635408] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396982.972175540] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.022572714] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.071937406] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.125816593] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.172489581] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.221808369] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.274631263] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.324997891] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.373538191] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.423884629] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.472930765] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.523209750] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.572620175] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.622748475] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.673358658] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.723328919] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.774469636] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.824371310] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.874099822] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.924178655] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396983.976165677] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.024833730] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.073384349] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.123314108] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.174283913] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.225837597] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.273585736] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.324044941] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.375718235] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.424430199] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.474768006] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.524181652] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.573990819] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.623884074] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.673799456] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.723390316] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.774614604] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.823924142] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.874110183] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.926648474] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396984.975165512] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.025117185] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.074905149] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.124528876] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.175460677] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.225417414] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.275675235] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.326743212] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.374811125] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.425201794] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.475510603] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.526557323] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.575695116] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.625654433] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.676142071] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.726590928] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.779292685] [coverage_planner]: 状态:MOVE 目标0:(-0.6,-2.2)
+[python3-5] [INFO] [1791396985.825191803] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396985.876727292] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396985.926010793] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396985.974607630] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.024811853] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.075426983] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.125494959] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.177280176] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.225347684] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.276106335] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.327068050] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.375735536] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.426831911] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.475898794] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.527374385] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.576375129] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.625374705] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.676528485] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.727581717] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.776149054] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.827345796] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.876786373] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.927870025] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396986.976155461] [coverage_planner]: 状态:ROTATE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.026871321] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.075249641] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.126406045] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.176146811] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.227513466] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.277284322] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.326947666] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.378311568] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.430648084] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.477001960] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.526157859] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.577270049] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.627074559] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.677888559] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.728400293] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.777076416] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.827795927] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.876649770] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.928208809] [coverage_planner]: 状态:MOVE 目标1:(-0.1,-2.2)
+[python3-5] [INFO] [1791396987.977077379] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.026980558] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.076823187] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.127791249] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.176882390] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.227386902] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.277633829] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.328496147] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.377175845] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.427862307] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.476849568] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.530392090] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.578342831] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.628503956] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.679343805] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.728688678] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.779963587] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.829804207] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.877560033] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.927826478] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396988.978516487] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396989.027393921] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396989.077394556] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396989.127410227] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396989.179015208] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [INFO] [1791396989.227835167] [coverage_planner]: 状态:MOVE 目标2:(0.6,-2.2)
+[python3-5] [WARN] [1791397054.933648766] [coverage_planner]: 触发避障!激光:True(前0.60m) 视觉:False 左空0.74右空6.40
+[python3-5] [INFO] [1791397054.934276238] [coverage_planner]: 航点47第1次失败
+[python3-5] [INFO] [1791397054.934608293] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397054.935192348] [coverage_planner]: 侧向激光约束: 绕行方向空间0.74m，side_dist限制为0.54m
+[python3-5] [INFO] [1791397054.936234598] [coverage_planner]: 开始绕行: (1.41, 1.53)
+[python3-5] [INFO] [1791397057.085458027] [coverage_planner]: 绕行完成，回到航点 47
+[python3-5] [WARN] [1791397059.986611559] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空0.48右空4.50
+[python3-5] [INFO] [1791397059.986939719] [coverage_planner]: 航点47第2次失败
+[python3-5] [INFO] [1791397059.987207080] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397059.987638942] [coverage_planner]: 侧向激光约束: 绕行方向空间0.48m，side_dist限制为0.28m
+[python3-5] [INFO] [1791397059.988478346] [coverage_planner]: 绕行路径有障碍，缩小到 80%: side_dist=0.23m
+[python3-5] [INFO] [1791397059.988736626] [coverage_planner]: 开始绕行: (1.62, 1.63)
+[python3-5] [WARN] [1791397062.438243055] [coverage_planner]: 前方仍有障碍，跳过航点 47
+[async_slam_toolbox_node-4] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[async_slam_toolbox_node-4] W1008 02:18:10.765069 237589 preprocessor.cc:62] Specified options.num_threads: 50 exceeds maximum available from the threading model Ceres was compiled with: 32.  Bounding to maximum number available.
+[python3-5] [WARN] [1791397102.218146899] [coverage_planner]: 触发避障!激光:True(前0.59m) 视觉:False 左空2.79右空4.41
+[python3-5] [INFO] [1791397102.218465718] [coverage_planner]: 航点78第1次失败
+[python3-5] [INFO] [1791397102.218709320] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397102.219148447] [coverage_planner]: 离边界0.40m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397102.219878576] [coverage_planner]: 开始绕行: (1.08, 2.79)
+[python3-5] [INFO] [1791397104.669792732] [coverage_planner]: 绕行完成，回到航点 78
+[python3-5] [WARN] [1791397107.173469008] [coverage_planner]: 触发避障!激光:True(前0.56m) 视觉:False 左空2.72右空0.61
+[python3-5] [INFO] [1791397107.173786721] [coverage_planner]: 航点78第2次失败
+[python3-5] [INFO] [1791397107.174052737] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397107.174542221] [coverage_planner]: 离边界0.33m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397107.175227385] [coverage_planner]: 路径/点超出安全边界，缩小到 60%: side_dist=0.12m
+[python3-5] [INFO] [1791397107.175718056] [coverage_planner]: 开始绕行: (1.21, 2.78)
+[python3-5] [INFO] [1791397107.573698749] [coverage_planner]: 绕行完成，回到航点 78
+[python3-5] [WARN] [1791397108.673510067] [coverage_planner]: 触发避障!激光:True(前0.48m) 视觉:False 左空2.79右空0.51
+[python3-5] [INFO] [1791397108.673820800] [coverage_planner]: 航点78第3次失败
+[python3-5] [WARN] [1791397108.674184324] [coverage_planner]: 🚨 航点78失败3次，跳过
+[python3-5] [WARN] [1791397108.775003696] [coverage_planner]: 触发避障!激光:True(前0.50m) 视觉:False 左空2.79右空0.51
+[python3-5] [INFO] [1791397108.775340170] [coverage_planner]: 航点78第1次失败
+[python3-5] [INFO] [1791397108.775611954] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397108.776014879] [coverage_planner]: 离边界0.40m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397108.776704463] [coverage_planner]: 开始绕行: (1.21, 2.77)
+[python3-5] [INFO] [1791397109.273683123] [coverage_planner]: 绕行完成，回到航点 78
+[python3-5] [WARN] [1791397110.477402384] [coverage_planner]: 触发避障!激光:True(前0.44m) 视觉:False 左空2.88右空0.46
+[python3-5] [INFO] [1791397110.478072375] [coverage_planner]: 航点78第2次失败
+[python3-5] [INFO] [1791397110.478890620] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397110.479749646] [coverage_planner]: 离边界0.50m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397110.480742033] [coverage_planner]: 开始绕行: (1.17, 2.65)
+[python3-5] [INFO] [1791397112.627907829] [coverage_planner]: 绕行完成，回到航点 78
+[python3-5] [WARN] [1791397114.980380613] [coverage_planner]: 触发避障!激光:True(前0.46m) 视觉:False 左空2.83右空0.51
+[python3-5] [INFO] [1791397114.980768755] [coverage_planner]: 航点78第3次失败
+[python3-5] [WARN] [1791397114.981119533] [coverage_planner]: 🚨 航点78失败3次，跳过
+[python3-5] [WARN] [1791397115.080008052] [coverage_planner]: 触发避障!激光:True(前0.47m) 视觉:False 左空2.83右空0.50
+[python3-5] [INFO] [1791397115.080412588] [coverage_planner]: 航点78第1次失败
+[python3-5] [INFO] [1791397115.081349171] [coverage_planner]: 连续避障第1次，保持向左绕行
+[python3-5] [INFO] [1791397115.082112254] [coverage_planner]: 离边界0.45m，side_dist限制为0.20m
+[python3-5] [INFO] [1791397115.083018029] [coverage_planner]: 开始绕行: (1.17, 2.71)
+[python3-5] [INFO] [1791397115.729016111] [coverage_planner]: 绕行完成，回到航点 78
+[python3-5] [INFO] [1791397116.431728374] [coverage_planner]: 🌀 航点78航线被挡，插入5个绕障圆弧航点
+[python3-5] [INFO] [1791397124.183807931] [coverage_planner]: 🏁 单程覆盖完成，发布 /coverage_done
+[python3-6] [INFO] [1791397124.183882927] [metrics_recorder]: 📼 收到 /coverage_done, t=315.1
+[python3-5] [INFO] [1791397124.184273137] [coverage_planner]: ✅ 往返覆盖完成
+[python3-6] [INFO] [1791397124.213162539] [metrics_recorder]: 📼 落盘完成: status=done odom=14348 点, 时长=287.0
+[python3-5] [INFO] [1791397124.233994046] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.284137698] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.334127535] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.384087120] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.434144991] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.484329662] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.534454639] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.584277266] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.634327150] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.684871439] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.734797661] [coverage_planner]: ✅ 往返覆盖完成
+[python3-5] [INFO] [1791397124.784497993] [coverage_planner]: ✅ 往返覆盖完成
